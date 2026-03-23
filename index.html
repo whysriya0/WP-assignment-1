@@ -54,24 +54,27 @@
             <div class="grid">
 
                 <div class="card">
+                    <img src="https://web.dev/static/html/image/hero-html.png" alt="Web Development">
                     <h3>HTML Basics</h3>
                     <p>Instructor: X</p>
                     <p>₹999</p>
-                    <button onclick="location.href='course-details.html'">View</button>
+                    <button class="btn" onclick="goToLogin()">Enroll Now</button>
                 </div>
 
                 <div class="card">
+                    <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg" alt="CSS Design">
                     <h3>CSS Design</h3>
                     <p>Instructor: Y</p>
                     <p>₹1299</p>
-                    <button onclick="location.href='course-details.html'">View</button>
+                    <button class="btn" onclick="goToLogin()">Enroll Now</button>
                 </div>
 
                 <div class="card">
+                    <img src="https://read.learnyard.com/content/images/2024/07/logo.png" alt="JavaScript">
                     <h3>JavaScript</h3>
                     <p>Instructor: Z</p>
                     <p>₹1499</p>
-                    <button onclick="location.href='course-details.html'">View</button>
+                    <button class="btn" onclick="goToLogin()">Enroll Now</button>
                 </div>
 
             </div>
@@ -84,6 +87,11 @@
 <footer>
     <p>© 2026 LearnSphere</p>
 </footer>
+<script>
+function goToLogin() {
+    location.href = 'auth.html';
+}
+</script>
 
 </body>
 </html>

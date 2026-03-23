@@ -3,7 +3,7 @@
 <courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="courses.xsd">
 
-    <course id="C101">
+    <course id="100">
         <title>HTML Basics</title>
         <instructor>X</instructor>
         <price>999</price>
@@ -11,7 +11,7 @@
         <duration>4 Weeks</duration>
     </course>
 
-    <course id="C102">
+    <course id="200">
         <title>CSS Design</title>
         <instructor>Y</instructor>
         <price>1299</price>
@@ -19,7 +19,7 @@
         <duration>5 Weeks</duration>
     </course>
 
-    <course id="C103">
+    <course id="300">
         <title>JavaScript</title>
         <instructor>Z</instructor>
         <price>1499</price>
